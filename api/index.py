@@ -1,6 +1,5 @@
 from flask import Flask
-from flask import render_template
-from flask import request, session
+from flask import session
 from flask import redirect
 from controller.authentication import Auth
 from controller.beranda import Beranda
