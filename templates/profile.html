@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/profile.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="beranda">
+        <header class="header">
+            <nav class="nav">
+                <nav class="nav">
+                    <a href="/postingan"> <img src="../static/PlusCircle.png"></a>
+                    <a> <img src="../static/fire.png"></a>
+                    <a> <img src="../static/Send.png"></a>
+                    <a href="/profile"> <img src="../static/Vector.png"></a>
+                    <a href="/jasa"> <img src="../static/🦆 icon _User Tie_.png"></a>
+                    <form method="post" action="/logout">
+                        <input type="submit" value="logout">
+                    </form>
+                </nav>
+            </nav>
+            <div class="title">
+                <a href="/"><img src="../static/POSTER_TULUNG__1_-removebg-preview 4.png"></a>
+            </div>
+        </header>
+        <section class="section">
+            <div class="profile">
+                <div class="pp">
+                    <div class="lingkaran">
+                        <img src="../static/🦆 icon _person_.png">
+                    </div>
+                    <div class="akun">
+                        <h2>{{username}}</h2>
+                        <h3>Bio.......</h3>
+                    </div>
+                </div>
+                <input type="submit" value="Edit Profile">
+            </div>
+
+            <div class="postingan">
+                {% for post in data %}
+                <div class="post">
+                    <div class="content">
+                        <div class="account_user">
+                            <div class="User">
+                                <img src="../static/🦆 icon _person_.png">
+                            </div>
+                            <h4>@user</h4>
+                        </div>
+                        <img src="{{post['Image']}}" class="gambar_post">
+                        <div class="interaction">
+                            <div class="int">
+                                <img src="../static/Vector (1).png">
+                                <img src="../static/ChatLeftText.png">
+                                <img src="../static/basil_location-outline.png">
+                            </div>
+                            <img src="../static/ph_bag.png">
+                        </div>
+                    </div>
+                    <h3>{{post['Description']}}</h3>
+                </div>
+
+                {% endfor %}
+            </div>
+        </section>
+</body>
+
+</html>

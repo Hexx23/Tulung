@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.beranda {
+  display: flex;
+  height: 100vh;
+  background-color: #4e6c50;
+}
+
+.header {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav img {
+  margin-top: 10px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.postingan {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 100%;
+  height: 60%;
+}
+
+.post {
+  object-fit: fill;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.side_post {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  height: 80%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.interaction {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.interaction img {
+  margin-right: 10px;
+}
+
+.kolom_comment {
+  padding-left: 45px;
+  background: url("🦆\ icon\ _Keyboard_.png") left;
+  background-repeat: no-repeat;
+  background-position-x: 2%;
+  background-size: 25px;
+  background-color: white;
+  width: 100%;
+  height: 10%;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+.comment {
+  width: 100%;
+  height: 40%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: auto;
+  gap: 20px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.komentar {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 30%;
+  background-color: #f0ebce;
+  border-radius: 10px;
+}
+
+.komentar h4 {
+  font-family: arial;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 100%;
+}
+
+.profile h5 {
+  margin-left: 10px;
+  font-family: arial;
+  color: #aa8b56;
+}
+
+.pp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 70%;
+  border-radius: 50%;
+  background-color: #aa8b56;
+}
+
+.pp img {
+  width: 50%;
+  height: 50%;
+}

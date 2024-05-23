@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/beranda.css">
+    <title>Beranda</title>
+</head>
+
+<body>
+    <div style="background-image: url('../static/homepage\ website\ 1.png');" class="Hero"></div>
+    <div class="beranda">
+        <header class="header">
+            <div class="title">
+                <img src="../static/POSTER_TULUNG__1_-removebg-preview 2.png" style="width: 25%;">
+                <h1>Beranda</h1>
+            </div>
+            <div>
+                <form class="search">
+                    <img src="../static/Search.png">
+                    <input type="text">
+                    <img src="../static/🦆 icon _Sort Amount Down_.png">
+                </form>
+            </div>
+
+            <nav class="nav">
+                <a href="/jasa"> <img src="../static/🦆 icon _User Tie_.png"></a></a>
+                <a> <img src="../static/Send.png"></a>
+                <a> <img src="../static/fire.png"></a>
+                <a href="/postingan"> <img src="../static/PlusCircle.png"></a>
+                <a href="/profile"> <img src="../static/Vector.png"></a>
+            </nav>
+        </header>
+        <section class="postingan">
+            {% for post in daftar_post %}
+            <a href="/postingan/{{ post['$id']}}">
+                <div class="post">
+                    <div class="gambar_post" style="background-image: url('{{ post['Image'] }}');"></div>
+                    <h5 class="caption">{{ post['Description'] }}</h5>
+                    <div class="interaction">
+                        <div style="margin-right: 10px;" class="komen">
+                            <img src="../static/ChatLeftText.png">
+                            <h6>0</h6>
+                        </div>
+                        <div class="suka">
+                            <img src="../static/Vector (1).png">
+                            <h6 style="text-align: right;">{{ post['Like'] }}</h6>
+                        </div>
+                    </div>
+            </a>
+    </div>
+    {% endfor %}
+    </section>
+    </div>
+</body>
+
+</html>

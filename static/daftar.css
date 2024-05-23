@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #4e6c50;
+}
+
+.atas-login {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  background-color: white;
+  color: #5a3d01;
+  font-size: 3em;
+  font-family: arial;
+}
+
+.atas-login img {
+  width: 8%;
+  height: 100%;
+}
+
+.konten-daftar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 85%;
+}
+
+.poster-daftar {
+  width: 40%;
+  height: 90%;
+}
+
+.part-daftar {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  height: 90%;
+  background-color: #fffbe2;
+  border-radius: 10px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 70%;
+}
+
+.input h5 {
+  font-size: 2em;
+  margin-top: 20px;
+  font-family: arial;
+  color: #aa8b56;
+}
+
+.username {
+  width: 100%;
+  height: 50%;
+  padding-left: 10px;
+  margin-top: 20px;
+  border: 2px solid #aa8b56;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.email {
+  width: 100%;
+  height: 50%;
+  padding-left: 10px;
+  margin-top: 10px;
+  border: 2px solid #aa8b56;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.password {
+  width: 100%;
+  height: 50%;
+  padding-left: 10px;
+  margin-top: 10px;
+  border: 2px solid #aa8b56;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.tombol-daftar {
+  width: 100%;
+  height: 40%;
+  margin-top: 20px;
+  background-color: #aa8b56;
+  border: none;
+  font-size: large;
+  font-family: arial;
+  color: white;
+}
+
+.container-kalimat {
+  text-align: center;
+  color: #aa8b56;
+  font-family: arial;
+}
+
+.Sudah-punya-akun {
+  color: #aa8b56;
+  font-family: arial;
+}
+a {
+  font-weight: bold;
+  color: #aa8b56;
+  text-decoration: none;
+}

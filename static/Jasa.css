@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.beranda {
+  display: flex;
+  height: 100vh;
+  background-color: #4e6c50;
+}
+
+.header {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav img {
+  margin-top: 10px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 90%;
+  height: 15%;
+  background-color: #f0ebce;
+  border-radius: 10px;
+}
+
+.head h1 {
+  font-size: 2em;
+  color: #aa8b56;
+  font-family: arial;
+}
+
+.tombol {
+  display: flex;
+  width: 15%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #4e6c50;
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  font-family: arial;
+  border: none;
+}
+
+.container_search {
+  display: flex;
+  width: 90%;
+  height: 10%;
+  margin-top: 10px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90%;
+  width: 25%;
+  border-radius: 28px;
+  background-color: #f0ebce;
+  border-color: black;
+  border-width: 5px;
+  text-align: center;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.search input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  margin-left: 20px;
+  background-color: transparent;
+}
+
+.bincang {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  width: 90%;
+  height: 100%;
+  padding: 3px;
+  overflow-y: auto;
+  gap: 24px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.konsultasi {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  height: 90%;
+  background-color: #f0ebce;
+  border-radius: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+
+.pp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+  height: 35%;
+  border-radius: 50%;
+  background-color: #aa8b56;
+}
+
+.pp img {
+  width: 50%;
+  height: 50%;
+}
+
+.username {
+  color: #aa8b56;
+  font-family: arial;
+  margin-top: 30px;
+}
+.job {
+  color: #aa8b56;
+  font-family: arial;
+  font-size: smaller;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+.bio {
+  color: #aa8b56;
+  font-family: arial;
+  margin-top: 25px;
+}
+
+.submit {
+  width: 80%;
+  height: 10%;
+  background-color: white;
+  color: #aa8b56;
+  font-family: arial;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+  margin-top: 50px;
+}

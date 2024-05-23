@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tulung</title>
+    <link rel="stylesheet" href="../static/login.css" />
+</head>
+
+<body>
+    <section class="section">
+        <div class="atas-login">
+            <img src="../static/POSTER_TULUNG__1_-removebg-preview 2.png" />
+            <h5>Login</h5>
+        </div>
+
+        <div class="konten-login">
+            <img src="../static/bantubisnismu.jpg" class="poster-login" />
+
+            <div class="part-login">
+                <div class="input">
+                    <h5 class="h5-login2">Login</h5>
+                    <h6 class="PW_salah">{{ error }}</h6>
+                    <form method="post" action="/login">
+                        <input required name="email" type="email" class="email" placeholder="Email mu" />
+                        <input required name="password" type="password" class="password" placeholder="Password mu" />
+                        <div class="submit">
+                            <input type="submit" value="Login" class="tombol" />
+                            <a href="/OTP" class="lupa-password">Lupa Password?</a>
+                        </div>
+                    </form>
+                </div>
+                <h5 class="daftar">Belum punya akun?<a href="/daftar"><b>Daftar</b></a></h5>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

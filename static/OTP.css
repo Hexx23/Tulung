@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4e6c50;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 80%;
+  border-radius: 10px;
+  background-color: #fffbe2;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+.JLupa {
+  color: #aa8b56;
+  font-family: Arial;
+}
+
+.arrow {
+  border: solid #aa8b56;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.info {
+  width: 20px;
+  height: 20px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 40%;
+}
+.comment {
+  width: 40%;
+}
+.tanya {
+  color: #aa8b56;
+  font-family: arail;
+  font-size: 4em;
+  position: absolute;
+  top: 22%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Slupa {
+  color: #aa8b56;
+  font-family: Arial;
+}
+
+.garis {
+  width: 500px;
+  height: 1px;
+  background-color: #aa8b56;
+}
+
+.penjelas {
+  text-align: center;
+  color: #aa8b56;
+}
+.in_email {
+  background-color: #fffbe2;
+  color: #aa8b56;
+  width: 450px;
+  height: 40px;
+  border-radius: 50px;
+  border-color: #aa8b56;
+  border-width: 3px;
+  text-align: center;
+}
+
+.emailpng {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 37%;
+  bottom: 26%;
+}
+::placeholder {
+  color: #aa8b56;
+  font-size: large;
+}
+
+.pilih {
+  width: 460px;
+  height: 48px;
+  border-width: 3px;
+  border-radius: 50px;
+  background-color: #aa8b56;
+  color: #fffbe2;
+  font-size: large;
+}

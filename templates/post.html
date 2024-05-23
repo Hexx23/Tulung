@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Upload</title>
+    <link rel="stylesheet" href="../static/post.css">
+</head>
+
+<body>
+    <div class="container-upload">
+        <div class="navbar">
+            <div class="nav">
+                <a href="/postingan"><img src="../static/PlusCircle.png"></a>
+                <a href=""><img src="../static/fire.png"></a>
+                <a href=""><img src="../static/Send.png"></a>
+                <a href="/profile"><img src="../static/Vector.png"></a>
+                <a href="/jasa"><img src="../static/🦆 icon _User Tie_.png"></a>
+            </div>
+            <a href="/"><img src="../static/POSTER_TULUNG__1_-removebg-preview 4.png" class="logo-navbar"></a>
+        </div>
+        <section class="section">
+            <div class="container-konten">
+                <div class="input">
+                    <form method="post" action="/postingan/create" enctype="multipart/form-data">
+                        <textarea type="text" name="Deskripsi" placeholder="Deskripsi..." class="input-text"></textarea>
+                        <div class="file">
+                            <input type="file" class="input-file" name="file">
+                            <input type="submit" value="Simpan" class="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

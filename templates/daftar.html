@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tulung-Daftar</title>
+    <link rel="stylesheet" href="../static/daftar.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="atas-login">
+            <img src="../static/POSTER_TULUNG__1_-removebg-preview 2.png" class="logo-daftar">
+            <h5>Daftar</h5>
+        </div>
+
+        <div class="konten-daftar">
+            <img src="../static/kamibisa.jpg" class="poster-daftar">
+
+            <div class="part-daftar">
+                <div class="input">
+                    <h5>Daftar</h5>
+                    <p>{{error}}</p>
+                    <form method="post" action="/daftar">
+                        <input type="text" name="username" placeholder="Username" class="username">
+                        <input type="email" name="email" class="email" placeholder="email">
+                        <input type="password" name="password" placeholder="Password" class="password">
+                        <input type="submit" value="Berikutnya" class="tombol-daftar">
+                    </form>
+                </div>
+                <div class="container-kalimat">
+                    <p>Dengan mendaftar, Anda setuju dengan syarat,</p>
+                    <p>ketentuan dan kebijakan dari Tulung & kebijakan </p>
+                    <p>privasi.</p>
+                </div>
+                <p class="Sudah-punya-akun">Sudah punya akun?<a href="/login">Login</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
