@@ -86,7 +86,8 @@ def logout_post():
 # def profile_by_name(name, alamat):
 #     return render_template('profile.html', name=name, alamat = alamat)
 
-
+def handler(event, context):
+    return app(event, context)
 
 
 if __name__ == '__main__':
