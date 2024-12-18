@@ -9,6 +9,9 @@ from controller.postingan import Postingan
 from controller.profile import Profile
 from controller.post import Post
 from model.postingan import PostinganModel
+import os  
+port = int(os.environ.get("PORT", 5000))  
+app.run(host='0.0.0.0', port=port)  
 
 
 auth = Auth()
